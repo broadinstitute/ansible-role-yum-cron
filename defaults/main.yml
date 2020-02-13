@@ -20,3 +20,4 @@ yum_cron_group_list: None
 yum_cron_group_package_types: 'mandatory, default'
 yum_cron_debug_level: -2
 yum_cron_mdpolicy: 'group:main'
+yum_cron_exclude_list: ''
