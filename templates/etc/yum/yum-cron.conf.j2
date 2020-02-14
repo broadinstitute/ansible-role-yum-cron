@@ -79,6 +79,4 @@ mdpolicy = {{ yum_cron_mdpolicy }}
 # Uncomment to auto-import new gpg keys (dangerous)
 # assumeyes = True
 
-{% if yum_cron_exclude_list|length %}
 exclude = {{ yum_cron_exclude_list }}
-{% endif %}
